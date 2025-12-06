@@ -10,9 +10,12 @@ public class Number16
 {
     public static void main(String[] arg) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Enter number: ");
+        
         String num = scanner.nextLine();
         int digitCount = num.length();
+        
         System.out.println("Digits: " + digitCount);
         scanner.close();
     }
